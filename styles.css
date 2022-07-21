@@ -14,6 +14,7 @@ body {
     justify-content: space-around;
     background-color: #1F2937;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -38,23 +39,69 @@ a {
 
 .intro {
     display: flex;
+    justify-content: space-between;
     padding: 100px;
+    background-color: #1F2937;
+    
 }
 
+.intro1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    
+
+}
+
+.intro1 h1 {
+    font-size: 48px ;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.intro1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+ button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 25px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+
 img {
-    width: 300px;
+    max-width: 350px;
     height: auto;
+    padding: 50px;
+    
 }
 
 .content {
+    padding: 100px 200px;
+    text-align: center;
     
-    
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 20px;
 }
 
 .card-group {
     display: flex;
     flex-wrap:wrap;
-    gap: 30px;
+    gap: 50px;
+    justify-content: center;
 
 }
 
@@ -62,6 +109,7 @@ img {
     border: 2px solid rgb(58, 58, 238);
     width: 200px;
     height: 200px;
+    border-radius: 10px;
 }
 
 .card-group div {
@@ -70,8 +118,14 @@ img {
 
 
 .quote {
-    padding: 100px;
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
 }
+
+
 
 .last-section {
     margin: 100px;
@@ -82,6 +136,13 @@ img {
 
 }
 
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    justify-content: center;
+    display: flex;
+    padding: 30px 0;
+}
 
 
 
